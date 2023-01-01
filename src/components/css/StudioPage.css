@@ -1,0 +1,7 @@
+.studio-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: space-between;
+    gap: 8vh 2rem;
+    padding: 18vh 0vw 5vh 2vw;
+}

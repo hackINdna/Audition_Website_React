@@ -1,0 +1,66 @@
+.body-sec {
+    padding: 12vh 1.5vw 3vh 1.5vw;
+}
+
+.edit-section {
+    height: 79vh;
+    padding: 3vh 1vw;
+    border-radius: 20px;
+    box-shadow: -12px -8px 35px 0px rgba(0,0,0,0.06);
+}
+
+.edit-section-top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.edit-title {
+    display: flex;
+    width: 95%;
+    padding: 0 1vw;
+    justify-content: space-between;
+}
+
+.edit-text {
+    font-size: 30px;
+}
+
+.change-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    color: #0E67B9;
+}
+
+.change-image > img {
+    width: 8rem;
+    height: 8rem;
+    margin: 10px 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.detail-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 50%));
+    gap: 5vh 0;
+    margin-top: 10vh;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    font-size: 1.8rem;
+}
+
+.input-area > input[type="text"] {
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 0 1vw;
+    font-size: 1.5rem;
+}

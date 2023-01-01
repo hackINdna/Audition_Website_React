@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.easy-detail-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25vh;
+    margin-bottom: 15vh;
+    padding: 0 10vw;
+}
+
+.download-section {
+    display: flex;
+    height: 80vh;
+    margin: 8vh 0 3vh 0;
+}
+
+
+
+.download-details {
+    display: flex;
+    padding: 0 10vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.download-title {
+    font-size: 40px;
+    margin-bottom: 3vh;
+}
+
+.play-store-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 25vw;
+}
+
+.purple-bar {
+    width: 40vw;
+    height: 30vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;;
+}
+
+.download-app-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app-image > img{
+    position: absolute;
+    left: 5vw;
+}

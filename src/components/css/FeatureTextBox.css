@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-text-div {
+    width: 14vw;
+    padding: 50px 25px;
+}
+
+.feature-text-div > h3 {
+    font-size: 22px;
+}
+

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.easy-text-div {
+    width: 15vw;
+    position: relative;
+    padding: 80px 30px 50px 30px;
+    text-align: center;
+}
+
+
+.easy-yellow-circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #FFD233;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}

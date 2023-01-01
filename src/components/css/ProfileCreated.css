@@ -1,0 +1,192 @@
+.profile-created-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    margin: 0 2.5vw;
+    height: 40vh;
+    padding: 5vh 1vw;
+    box-shadow: 11px 14px 27px 0px rgba(0,0,0,0.15);
+    border-radius: 13px;
+}
+
+.left-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+    margin: 10px 0;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.20);
+    background-color: #FDF5F2;
+    cursor: pointer;
+}
+.left-btn:hover {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+    margin: 10px 0;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.20);
+    background-color: #F9D422;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    width: 73vw;
+    height: 81vh;
+    padding: 2vh 2vw;
+    flex-direction: column;
+    box-shadow: -12px -8px 35px 0px rgba(0,0,0,0.06);
+    border-radius: 30px;
+}
+
+.right-top {
+    font-size: 25px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 3rem 0
+}
+
+.right-profile-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-change-sec {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.p-detail-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 18px;
+    width: 50vw;
+    padding: 30px 0;
+    margin: 0 4vw 0 2vw;
+}
+
+.editBtn-sec {
+    font-size: 25px;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.prof-details {
+    margin-top: 5vh;
+}
+
+
+.prof-d {
+    padding: 2vh 0;
+}
+
+.subs-detail {
+    margin-top: 2vh;
+}
+
+.alert-text > h2{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.alert-text > span {
+    text-align: left;
+    display: inline-block;
+    margin: 2vh 0;
+}
+
+.three-plans {
+    display: flex;
+    padding: 0 15vw;
+    justify-content: space-between;
+
+}
+
+.month {
+    padding: 1vh 1.5vw;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.month:hover {
+    padding: 1vh 1.5vw;
+    background-color: #F9D422;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+.plan {
+    width: 18vw;
+    padding: 1.5vh 1vw;
+    box-shadow: 6px 9px 20px 0px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.plan-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.plan-middle {
+    margin-bottom: 3vh;
+}
+
+.plan-middle > ul > li{
+    margin: 15px 0;
+    font-size: 15px;
+    margin-left: 1vw;
+}
+
+.choose-plan {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.pay-now {
+    border: none;
+    outline: none;
+    background-color: #F9D422;
+    padding: 1vh 2vw;
+    border-radius: 8px;
+    cursor: pointer;
+}

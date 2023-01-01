@@ -1,0 +1,43 @@
+.right-bottom {
+    margin-top: 5vh;
+}
+
+.r-b-top {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2vh;
+
+}
+
+.picture-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    padding: 0 1%;
+    font-size: 20px;
+}
+
+.r-b-data {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 15%));
+    gap: 2vh 1vw;
+    height: 37vh;
+    overflow-y: scroll;
+}
+
+.r-b-data > img {
+    width: 10vw;
+}
+
+.grey-text {
+    color: #747474;
+    font-size: 20px;
+}
+
+.empty-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
